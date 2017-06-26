@@ -16,8 +16,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         print("back home")
     }
     
-    private let mydata = ["猜數字V1","猜數字V2","切換場景","自訂UIView",
-                          "簽名板","自訂Cell","Item3","Item4",
+    private let mydata = ["猜數字V1","猜數字V2","切換場景","簽名板",
+                          "Item1","自訂Cell","練習Touch事件","Item4",
                           "Item1","Item2","Item3","Item4",
                           "Item1","Item2","Item3","Item4",]
     
@@ -40,10 +40,24 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     
     private func gotoVC(whereVC:Int){
         switch (whereVC) {
+        case 2:
+            if let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2") {
+                show(vc2, sender: self)
+            }
+        case 3:
+            if let vc3 = storyboard?.instantiateViewController(withIdentifier: "paintervc") {
+                show(vc3, sender: self)
+            }
         case 5:
             if let vc = storyboard?.instantiateViewController(withIdentifier: "customcellvc") {
                 show(vc, sender: self)
             }
+            break
+        case 6:
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "touchvc") {
+                show(vc, sender: self)
+            }
+            
             break
         default:
             break

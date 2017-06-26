@@ -8,28 +8,43 @@
 
 import UIKit
 
-class CustomCellViewController: UIViewController {
+class CustomCellViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+
+    @IBOutlet weak var tableview: UITableView!
+    private let mydata = ["Item1","Item2","Item3","Item4",
+                          "Item1","Item2","Item3","Item4",
+                          "Item1","Item2","Item3","Item4",]
+
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return mydata.count
+    }
+    
+    
+
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customecell")
+           as! CustomTableViewCell
+        cell.img.image = UIImage(named:"Appple.jpeg")
+        cell.title.text = mydata[indexPath.row]
+        cell.content.text = "12345687"
+        
+       //  cell.img.layer.cornerRadius = 80 裁切
+      //cell.img.clipsToBounds = true 下去切
+    
+        
+        return cell
+
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+            }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

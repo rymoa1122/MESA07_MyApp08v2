@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290749261F009CB900581F65 /* testTouchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290749251F009CB900581F65 /* testTouchVC.swift */; };
+		290749281F009DCA00581F65 /* TestTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290749271F009DCA00581F65 /* TestTouchView.swift */; };
 		290A1D8F1EFB60290086EF2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1D8E1EFB60290086EF2F /* AppDelegate.swift */; };
 		290A1D911EFB60290086EF2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1D901EFB60290086EF2F /* ViewController.swift */; };
 		290A1D941EFB60290086EF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290A1D921EFB60290086EF2F /* Main.storyboard */; };
 		290A1D961EFB60290086EF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290A1D951EFB60290086EF2F /* Assets.xcassets */; };
 		290A1D991EFB60290086EF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290A1D971EFB60290086EF2F /* LaunchScreen.storyboard */; };
 		290A1DA11EFB712E0086EF2F /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1DA01EFB712E0086EF2F /* CustomCellViewController.swift */; };
+		290A1DA31EFB75D40086EF2F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1DA21EFB75D40086EF2F /* CustomTableViewCell.swift */; };
+		290A1DA61EFB77E40086EF2F /* Appple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 290A1DA51EFB77E40086EF2F /* Appple.jpeg */; };
+		29C1E1881EFCAF38002DB811 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E1871EFCAF38002DB811 /* VC2.swift */; };
+		29C1E18A1EFCAF49002DB811 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E1891EFCAF49002DB811 /* VC3.swift */; };
+		29C1E18C1EFCAF5B002DB811 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E18B1EFCAF5B002DB811 /* VC4.swift */; };
+		29C1E18E1EFCC44F002DB811 /* PainterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E18D1EFCC44F002DB811 /* PainterView.swift */; };
+		29C1E1921EFD008B002DB811 /* paintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E1911EFD008B002DB811 /* paintVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290749251F009CB900581F65 /* testTouchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTouchVC.swift; sourceTree = "<group>"; };
+		290749271F009DCA00581F65 /* TestTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTouchView.swift; sourceTree = "<group>"; };
 		290A1D8B1EFB60290086EF2F /* MyApp08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		290A1D8E1EFB60290086EF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		290A1D901EFB60290086EF2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		290A1D981EFB60290086EF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290A1D9A1EFB60290086EF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		290A1DA01EFB712E0086EF2F /* CustomCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
+		290A1DA21EFB75D40086EF2F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		290A1DA51EFB77E40086EF2F /* Appple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Appple.jpeg; sourceTree = "<group>"; };
+		29C1E1871EFCAF38002DB811 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		29C1E1891EFCAF49002DB811 /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		29C1E18B1EFCAF5B002DB811 /* VC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
+		29C1E18D1EFCC44F002DB811 /* PainterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PainterView.swift; sourceTree = "<group>"; };
+		29C1E1911EFD008B002DB811 /* paintVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = paintVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +75,31 @@
 			isa = PBXGroup;
 			children = (
 				290A1D8E1EFB60290086EF2F /* AppDelegate.swift */,
+				290A1DA41EFB77820086EF2F /* img */,
 				290A1D901EFB60290086EF2F /* ViewController.swift */,
+				290A1DA21EFB75D40086EF2F /* CustomTableViewCell.swift */,
+				290749251F009CB900581F65 /* testTouchVC.swift */,
+				290749271F009DCA00581F65 /* TestTouchView.swift */,
 				290A1DA01EFB712E0086EF2F /* CustomCellViewController.swift */,
 				290A1D921EFB60290086EF2F /* Main.storyboard */,
 				290A1D951EFB60290086EF2F /* Assets.xcassets */,
 				290A1D971EFB60290086EF2F /* LaunchScreen.storyboard */,
 				290A1D9A1EFB60290086EF2F /* Info.plist */,
+				29C1E1871EFCAF38002DB811 /* VC2.swift */,
+				29C1E1891EFCAF49002DB811 /* VC3.swift */,
+				29C1E18B1EFCAF5B002DB811 /* VC4.swift */,
+				29C1E18D1EFCC44F002DB811 /* PainterView.swift */,
+				29C1E1911EFD008B002DB811 /* paintVC.swift */,
 			);
 			path = MyApp08;
+			sourceTree = "<group>";
+		};
+		290A1DA41EFB77820086EF2F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				290A1DA51EFB77E40086EF2F /* Appple.jpeg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290A1D991EFB60290086EF2F /* LaunchScreen.storyboard in Resources */,
+				290A1DA61EFB77E40086EF2F /* Appple.jpeg in Resources */,
 				290A1D961EFB60290086EF2F /* Assets.xcassets in Resources */,
 				290A1D941EFB60290086EF2F /* Main.storyboard in Resources */,
 			);
@@ -140,8 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C1E18A1EFCAF49002DB811 /* VC3.swift in Sources */,
 				290A1D911EFB60290086EF2F /* ViewController.swift in Sources */,
+				29C1E18E1EFCC44F002DB811 /* PainterView.swift in Sources */,
+				29C1E18C1EFCAF5B002DB811 /* VC4.swift in Sources */,
 				290A1DA11EFB712E0086EF2F /* CustomCellViewController.swift in Sources */,
+				290749281F009DCA00581F65 /* TestTouchView.swift in Sources */,
+				29C1E1881EFCAF38002DB811 /* VC2.swift in Sources */,
+				29C1E1921EFD008B002DB811 /* paintVC.swift in Sources */,
+				290A1DA31EFB75D40086EF2F /* CustomTableViewCell.swift in Sources */,
+				290749261F009CB900581F65 /* testTouchVC.swift in Sources */,
 				290A1D8F1EFB60290086EF2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +352,7 @@
 				290A1D9F1EFB60290086EF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
