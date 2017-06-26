@@ -17,6 +17,7 @@
 		290A1DA11EFB712E0086EF2F /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1DA01EFB712E0086EF2F /* CustomCellViewController.swift */; };
 		290A1DA31EFB75D40086EF2F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290A1DA21EFB75D40086EF2F /* CustomTableViewCell.swift */; };
 		290A1DA61EFB77E40086EF2F /* Appple.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 290A1DA51EFB77E40086EF2F /* Appple.jpeg */; };
+		296859271F00F10B009DB645 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 296859261F00F10B009DB645 /* ball.png */; };
 		29C1E1881EFCAF38002DB811 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E1871EFCAF38002DB811 /* VC2.swift */; };
 		29C1E18A1EFCAF49002DB811 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E1891EFCAF49002DB811 /* VC3.swift */; };
 		29C1E18C1EFCAF5B002DB811 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C1E18B1EFCAF5B002DB811 /* VC4.swift */; };
@@ -37,6 +38,7 @@
 		290A1DA01EFB712E0086EF2F /* CustomCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
 		290A1DA21EFB75D40086EF2F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		290A1DA51EFB77E40086EF2F /* Appple.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Appple.jpeg; sourceTree = "<group>"; };
+		296859261F00F10B009DB645 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		29C1E1871EFCAF38002DB811 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		29C1E1891EFCAF49002DB811 /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
 		29C1E18B1EFCAF5B002DB811 /* VC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		290A1DA41EFB77820086EF2F /* img */ = {
 			isa = PBXGroup;
 			children = (
+				296859261F00F10B009DB645 /* ball.png */,
 				290A1DA51EFB77E40086EF2F /* Appple.jpeg */,
 			);
 			name = img;
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290A1D991EFB60290086EF2F /* LaunchScreen.storyboard in Resources */,
+				296859271F00F10B009DB645 /* ball.png in Resources */,
 				290A1DA61EFB77E40086EF2F /* Appple.jpeg in Resources */,
 				290A1D961EFB60290086EF2F /* Assets.xcassets in Resources */,
 				290A1D941EFB60290086EF2F /* Main.storyboard in Resources */,
